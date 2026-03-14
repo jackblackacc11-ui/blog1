@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Frame by Frame</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Frame <span>/</span> Frame</a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Journal</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <header class="page-header">
+    <p class="page-header-label animate-fade-up">About Me</p>
+    <h1 class="animate-fade-up delay-1">The person behind the lens</h1>
+  </header>
+
+  <!-- ===== ABOUT CONTENT ===== -->
+  <section class="about-layout animate-fade-up delay-2">
+
+    <!-- 
+      ╔══════════════════════════════════════════════════════╗
+      ║  Replace the placeholder below with your own photo  ║
+      ║  Save your image as "images/profile.jpg" and swap   ║
+      ║  the div for: <img src="images/profile.jpg"         ║
+      ║  alt="Your Name" class="about-photo">               ║
+      ╚══════════════════════════════════════════════════════╝
+    -->
+    <div class="about-photo-placeholder">Your Photo</div>
+
+    <!-- 
+      ╔══════════════════════════════════════════════════════════╗
+      ║  [YOUR BIO] — Replace ALL the text below with your own  ║
+      ║  personal biography. Aim for 150-250 words.             ║
+      ╚══════════════════════════════════════════════════════════╝
+    -->
+    <p>
+      Hello — I'm <strong>[YOUR NAME]</strong>, a postgraduate student on the MA Media programme 
+      at London Metropolitan University with a focus on film directing and cinematography.
+    </p>
+
+    <p>
+      My interest in filmmaking began [YOUR STORY — e.g. "when I first watched Terrence Malick's 
+      <em>The Tree of Life</em> and realised how profoundly a camera's movement could convey 
+      emotion without dialogue"]. Since then, I've been drawn to the intersection of visual 
+      storytelling, mise-en-scène, and the collaborative craft of bringing a director's vision to life.
+    </p>
+
+    <p>
+      This blog, <em>Frame by Frame</em>, is my space to explore these interests — through film 
+      reviews, reflections on my own creative practice, explorations of industry roles, and 
+      analysis of the media landscape. It's also an experiment in professional self-promotion: 
+      building an online presence as a media practitioner in an industry that increasingly values 
+      digital visibility.
+    </p>
+
+    <p>
+      When I'm not studying or on set, you'll find me [YOUR INTERESTS — e.g. "rewatching 
+      Kubrick films, visiting independent cinemas across London, or experimenting with 16mm 
+      photography"].
+    </p>
+
+    <h2 style="font-family: var(--font-heading); font-size: 1.4rem; margin-top: 2.5rem; margin-bottom: 1rem;">Get In Touch</h2>
+
+    <p>
+      I'm always happy to connect with fellow filmmakers, students, and anyone interested in 
+      the craft of cinema. Feel free to reach out via any of the platforms below.
+    </p>
+
+    <!-- 
+      ╔══════════════════════════════════════════════════════╗
+      ║  Replace # with your actual social media URLs       ║
+      ╚══════════════════════════════════════════════════════╝
+    -->
+    <div class="social-links">
+      <a href="#">Email</a>
+      <a href="#">Instagram</a>
+      <a href="#">Letterboxd</a>
+      <a href="#">LinkedIn</a>
+    </div>
+
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <p>&copy; 2025 [YOUR NAME] &middot; MA Media, London Metropolitan University</p>
+  </footer>
+
+</body>
+</html>
